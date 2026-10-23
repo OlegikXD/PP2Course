@@ -1,0 +1,34 @@
+<div style="text-align: center; padding: 10px; color: {text_color};">
+    <div style="font-size: 80px; margin-bottom: 10px;">
+        {emoji}
+    </div>
+    <div style="font-size: 60px; font-weight: bold; margin-bottom: 5px;">
+        {temperature}{unit}
+    </div>
+    <div style="font-size: 20px; color: {text_secondary}; margin-bottom: 15px;">
+        {feels_like_text} {feels_like}{unit}
+    </div>
+    <div style="font-size: 24px; font-weight: 500; margin-bottom: 20px;
+                background: {accent_light}; padding: 10px 20px;
+                border-radius: 10px; display: inline-block;
+                color: {text_color};">
+        {description}
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr);
+                gap: 15px; margin-top: 20px; padding: 15px;
+                background: {card_bg}; border-radius: 12px;
+                border: 1px solid {border_color};">
+        <div>
+            <div style="font-size: 14px; color: {text_secondary};">{humidity_label}</div>
+            <div style="font-size: 22px; font-weight: bold; color: {text_color};">{humidity}%</div>
+        </div>
+        <div>
+            <div style="font-size: 14px; color: {text_secondary};">{pressure_label}</div>
+            <div style="font-size: 22px; font-weight: bold; color: {text_color};">{pressure} {pressure_unit}</div>
+        </div>
+        <div>
+            <div style="font-size: 14px; color: {text_secondary};">{wind_label}</div>
+            <div style="font-size: 22px; font-weight: bold; color: {text_color};">{wind_speed} {wind_unit}</div>
+        </div>
+    </div>
+</div>
